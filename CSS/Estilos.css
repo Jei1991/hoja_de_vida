@@ -1,0 +1,41 @@
+		*{
+			box-sizing: border-box;
+		}	
+		body{
+			font-family: arial;
+		}
+		img{
+			align-content: left;
+			border-radius: 10px;
+		}
+		header{
+			background-color:gray; 
+			padding: 30px;
+			font-size: 15px;
+			color: white;
+			text-align: center;
+		}
+		section{
+			display: -webkit- flex;
+			display: flex;
+		}
+		nav {
+			-webkit-flex:1;
+			-ms-flex:1;
+			flex: 1;
+			background: #ccc;
+			padding: 20px;
+		}
+		article{
+			-webkit-flex:10;
+			-ms-flex:10;
+			flex: 10;
+			background: #f1f1f1;
+			padding: 10px;
+		}
+		footer{
+			background: gray;
+			padding: 10px;
+			text-align: left;
+			color: white;
+		}
